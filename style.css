@@ -383,3 +383,95 @@ footer {
     padding: 1.2rem;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* === TABLE STYLING === */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem auto;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  overflow: hidden;
+  animation: fadeUp 1s ease forwards;
+}
+
+caption {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem;
+  color: #50fa7b;
+  text-shadow: 0 0 5px #50fa7b;
+}
+
+th, td {
+  border: 1px solid #444;
+  padding: 1rem;
+  text-align: left;
+  font-size: 1rem;
+  color: #eee;
+}
+
+thead th {
+  background: #282a36;
+  color: #ff79c6;
+  font-size: 1.2rem;
+}
+
+tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+tfoot td {
+  text-align: center;
+  font-weight: bold;
+  color: #f1fa8c;
+  padding: 1rem;
+  background: #222;
+}
+
+/* Highlighted Row (Time for HTML) */
+.highlight td {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffb86c;
+  background: linear-gradient(90deg, #44475a, #6272a4);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+a.pill {
+  background: #222;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+a.pill:hover {
+  background: linear-gradient(45deg, #50fa7b, #6272a4);
+  color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(80, 250, 123, 0.6);
+}
+
+
